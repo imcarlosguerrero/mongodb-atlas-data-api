@@ -34,7 +34,7 @@ Of course, there are more scenarios where this implementation is useful, such as
 
 Install and update using <a href="https://pip.pypa.io/en/stable/getting-started/"><strong>pip</strong></a>:
    ```sh
-   pip install -u mongodb_atlas_data_api
+   pip install -U mongodb_atlas_data_api
    ```
 
 <!-- USAGE EXAMPLES -->
