@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/imcarlosguerrero/mongodb-atlas-data-api">
-    <img src="https://i.imgur.com/8P9wZJT.png" alt="Logo" width="250>
+    <img src="https://i.imgur.com/8P9wZJT.png" alt="Logo" width="250">
   </a>
 
   <h3 align="center">MongoDB Atlas Data API - Python Integration</h3>
@@ -41,19 +41,24 @@ Install and update using <a href="https://pip.pypa.io/en/stable/getting-started/
 ### Usage
 
 First, you have to enable the Data API on your MongoDB Atlas Cluster, you can do this by clicking the Data API option in Services section at the left panel in your Cluster Options.
-
-<div align="center">
+<br>
+</br>
 <a href="https://github.com/imcarlosguerrero/mongodb-atlas-data-api">
-    <img src="https://i.imgur.com/xidYOOS.jpg" alt="Enable Data API" width="250>
+    <img src="https://i.imgur.com/xidYOOS.jpg" alt="Enable Data API">
   </a>
-  </div>
-
+<br>
+</br>
 After, create a key and copy it into a safe place, note that you can also limit the <a href="https://www.mongodb.com/docs/atlas/api/data-api/#data-access-permissions"><strong>Data API Access</strong></a>, this is useful specially if you don't trust the hosting you're using and would like to limit the problem that a leak of this key could mean.
+<br>
+</br>
   <div align="center">
-<img src="https://i.imgur.com/rsYS4W3.gif">
-
+<img src="https://i.imgur.com/9mTEYKO.gif">
+</div>
+<br>
+</br>
 Once you have a key you can create a <strong>MongoOperator</strong> object by calling it from the <strong>mongodb_atlas_data_api</strong> library, this object receives five parameters, which are listed below:
 <br>
+</br>
 
 | Type        | Necessity | Description                                           |
 |-------------|-----------|-------------------------------------------------------|
@@ -62,6 +67,7 @@ Once you have a key you can create a <strong>MongoOperator</strong> object by ca
 | data_source | Required | The name of the cluster                                |
 | database    | Required | The name of the database within the cluster            |
 | collection  | Required | The name of the collection within the database        |
+</br>
 
 Once you have created a <strong>MongoOperator</strong> object you can use all the <a href="https://www.mongodb.com/docs/atlas/api/data-api-resources/"><strong>available operations</strong></a>, all of these operations are well described in the <a href="https://www.mongodb.com/docs/atlas/api/data-api-resources/"><strong>official documentation</strong></a>, you can lean on here if you  got questions that are not answered here.
 
